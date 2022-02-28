@@ -1,0 +1,45 @@
+@import url('[Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans)');
+
+hi, h2, h3, h4, h5, h6, a, p {
+    font-family: 'Josefin Sans';
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-image: url('./images/bg-pattern-desktop.svg');
+    background-repeat: no-repeat;
+    font-size: 16px;
+    
+}
+.boxInfo {
+    width: 100%;
+    margin-left: 10%;
+    font-style: normal;
+    font-weight: 100;
+}
+.logo {
+    position: relative;
+    left: 10%;
+    margin-top: -350px;
+}
+
+.textArea {
+    padding: 16px;
+    border-radius: 25px;
+    width: 300px; 
+}
+
+.btn {
+    padding: 16px;
+    border-radius: 25px;
+}
+
+

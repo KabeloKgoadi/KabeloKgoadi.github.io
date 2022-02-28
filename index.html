@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./style.css">
+  
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+ 
+</head>
+
+<body>
+  
+    <table>
+        <tr>
+            <td>
+
+                <div class="logo">
+                    <img src="./images/logo.svg" alt="logo" />
+                </div>
+
+
+                <div class="boxInfo">
+                    <h1>
+                        <div style="color: #d6b5a8"> W E ' RE </div> <div> C O M I N G </div> <div> S O O N </div>
+                    </h1>
+                    <p style="color: rgb(167, 115, 98)">
+                        Hello fellow shoppers! We're currently building our new fashion store.
+                        Add your email below to stay up-to-date with announcements and our launch deals.
+                    </p>
+
+                    <form action="https://formspree.io/f/xbjwylal" method="post">
+                        <input class="textArea" style="color: rgb(167, 115, 98) " id="email" type="email" placeholder="Email Address">
+                        <button type="submit" onclick="getEmail()" class=" btn"></button>
+                    </form>
+                    <label id="warning"></label>
+
+                </div>
+
+                
+            </td>
+            <td align="right">
+                <img src="./images/hero-desktop.jpg" />
+            </td>
+        </tr>
+    </table>
+
+    <footer>
+        <p class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+            Coded by <a href="#">Kabelo Kgoadi</a>.
+        </p>
+    </footer>
+
+    <script>
+        function getEmail() {
+            document.getElementById('email').value;
+
+            if (document.getElementById('email').value == false) {
+                document.getElementById('warning').innerHTML = "Please provide a valid email"
+            }
+        }
+
+    </script>
+
+    
+
+</body>
+</html>
